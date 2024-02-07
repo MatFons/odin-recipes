@@ -1,4 +1,4 @@
-Odin Recipes
+My Odin Recipes
 
 Build a simple static website with basic html displaying multiple recipes.
 
