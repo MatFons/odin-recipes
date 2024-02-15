@@ -3,19 +3,22 @@
 <head>
     <meta charset ="UTF-8">
     <title>My Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>My Odin Recipes</h1>
-    <img src="./images/vikingchef.jpg" alt="a drawing of a viking chef">
-    <ul>
-        <li><a href="./recipes/chili.html">Chili</a></li><br>  
-        <li><a href="./recipes/ravioli.html">Ravioli</a></li><br>
-        <li><a href="./recipes/lentilstew.html">Lentil Stew</a></li><br>  
-        <li><a href="./recipes/choripan.html">Choripan</a></li><br>
-        <li><a href="./recipes/chimichurri.html">Chimichurri</a></li><br>
-    </ul>
+    <div class="recipe-card">
+        <h1>My Odin Recipes</h1>
+        <img class="odin" src="./images/vikingchef.png" alt="a drawing of a viking chef">
+        <ul class="recipes">
+            <li><a href="./recipes/chili.html"><button>Chili</button></a></li> 
+            <li><a href="./recipes/ravioli.html"><button>Ravioli</button></a></li>
+            <li><a href="./recipes/lentilstew.html"><button>Lentil Stew</button></a></li>
+            <li><a href="./recipes/choripan.html"><button>Choripan</button></a></li>
+            <li><a href="./recipes/chimichurri.html"><button>Chimichurri</button></a></li>
+        </ul>
 
-    <h4>Made by <a href="https://github.com/MatFons">MatFons</a></h4>
+        <h4 class="credits">Made by<a href="https://github.com/MatFons"><button class="git">MatFons</button></a></h4>
+    </div>
 </body>
 </html>
