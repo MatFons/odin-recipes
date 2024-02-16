@@ -76,3 +76,45 @@ li a button:hover {
 }
 
 /* Recipe Pages */
+
+.subheader {
+    background-color: #488348;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    padding: 4px;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0px 4px 10px #000000;
+}
+
+.ingredients {
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+    margin: 20px;
+}
+
+.directions {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.steps {
+    text-align: left;
+    padding: 10px;
+    margin: 0 120px 0 120px;
+    line-height: 1.5;
+}
+
+.description {
+    margin: 12px 40px 20px 40px;
+}
+
+.border {
+    border: 2px solid #000000;
+}
